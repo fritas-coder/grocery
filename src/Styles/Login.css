@@ -1,0 +1,78 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 4em;
+  margin-bottom: 25px;
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  form {
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button[type="submit"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: black;
+      color: #fff;
+      font-size: 15px;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    .avatar-container {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+    }
+    input[type="checkbox"] {
+      margin: 10px 0;
+    }
+    .container2 {
+      padding: 16px;
+    }
+
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    .container2 {
+      background-color: #f1f1f1;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+}

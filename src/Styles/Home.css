@@ -1,0 +1,90 @@
+.Home {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  padding-top: 5em;
+  display: flex;
+  padding-bottom: 1em;
+  .col1 {
+    width: 50%;
+    padding-top: 7px;
+  }
+  h1 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  .text {
+    margin-top: 1em;
+    color: var(--text-light);
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 40px;
+  }
+  .buttons {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn1 {
+      background-color: var(--primary-color);
+      color: #fff;
+      border-radius: 20px;
+      height: 42px;
+      width: 130px;
+      font-size: 13px;
+      font-weight: bolder;
+    }
+    .btn2 {
+      height: 42px;
+      width: 185px;
+      font-size: 13.5px;
+      border-radius: 20px;
+      margin-left: 2em;
+      font-weight: bolder;
+      align-items: center;
+      background-color: black;
+      color: #fff;
+      .faApple {
+        font-size: 17px;
+      }
+    }
+  }
+  .col2-img1 {
+    .img2 {
+      width: 400px;
+    }
+  }
+
+  .quote {
+    display: grid;
+    .quoteicone {
+      font-size: 20px;
+      color: var(--primary-color);
+    }
+    .qtext {
+      font-weight: bold;
+      color: var(--text-light);
+    }
+  }
+}
+.qauteur {
+  text-align: right;
+  right: 0;
+  margin-bottom: 2em;
+}
+@media screen and (max-width: 1000px) {
+  .Home {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    .col1 {
+      width: 100%;
+      padding-right: 0;
+    }
+    h1 {
+      font-size: 25px;
+    }
+  }
+}

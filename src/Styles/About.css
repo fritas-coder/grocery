@@ -1,0 +1,91 @@
+.About {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .intro h3 {
+    padding-top: 1em;
+
+    color: black;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .mission h3,
+  .team h3,
+  .history h3,
+  .usp h3,
+  .testimonials h3,
+  .contact h3,
+  .awards h3,
+  .cta h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .team-member {
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .usp ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .usp li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .contact ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .contact li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .awards ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .awards li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .cta button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta button a {
+    color: #fff;
+    text-decoration: none;
+  }
+}

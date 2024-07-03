@@ -1,0 +1,32 @@
+:root {
+  --background-color: #fff;
+  --primary-color: #228b22;
+  --text-color: #000000;
+  --text-light: rgba(0, 0, 0, 0.736);
+  --animation-speed: 1;
+  --shadow-color: #1a251b89;
+  --black: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+.container {
+  padding-inline: 70px;
+}
+.main {
+  padding-inline: 120px;
+}
+button {
+  border: 1px solid var(--text-light);
+  &:hover {
+    opacity: 0.8;
+  }
+}

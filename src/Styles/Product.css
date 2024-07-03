@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 25px;
+  width: 170px;
+  height: 200px;
+  box-shadow: 0 1px 9px var(--shadow-color);
+  &:hover {
+    box-shadow: 0 1px 20px var(--black);
+  }
+
+  .small {
+    max-width: 70%;
+    max-height: 5.35em;
+    transition: 0.5 all ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  button {
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: var(--black);
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
